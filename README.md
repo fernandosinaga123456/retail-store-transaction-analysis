@@ -50,6 +50,7 @@ Semua temuan divisualisasikan dalam dashboard interaktif yang bisa
 di-filter berdasarkan tahun (2023, 2024, 2025), menampilkan tren 
 transaksi, revenue per kategori, top stores, dan distribusi 
 metode pembayaran.
+![Store Dashboard](Store Dashboard.png)
 
 ---
 
