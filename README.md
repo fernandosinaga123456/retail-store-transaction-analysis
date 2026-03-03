@@ -1,6 +1,6 @@
 # Retail Store Transaction Analysis
 > **Tools:** Microsoft Excel | Python | Power BI
-> **By:** Fernando H Sinaga |
+> **Oleh:** Fernando H Sinaga |
 
 ---
 
@@ -25,14 +25,14 @@ digunakan untuk pengambilan keputusan.
 
 ---
 
-## Perjalanan Analisis
+## Alur Kerja
 
-### 1. Data Cleaning — Microsoft Excel
+### 1. Data Cleaning - Microsoft Excel
 Perjalanan dimulai dari data yang belum sempurna. Duplikat dihapus, 
 missing values ditangani, format tanggal distandarisasi, dan kolom 
 yang tergabung dipisahkan. Setelah proses ini, data siap untuk berbicara.
 
-### 2. Analisis Data — Python
+### 2. Analisis Data - Python
 Dengan data yang bersih, saatnya menggali lebih dalam. Menggunakan 
 Pandas, setiap transaksi dianalisis untuk menemukan pola penjualan, 
 performa per kategori produk, tren bulanan, hingga store terbaik.
@@ -45,11 +45,12 @@ performa per kategori produk, tren bulanan, hingga store terbaik.
 | Total Products | 1.000 |
 | Total Stores | 50 |
 
-### 3. Visualisasi Data — Power BI
+### 3. Visualisasi Data - Power BI
 Semua temuan divisualisasikan dalam dashboard interaktif yang bisa 
 di-filter berdasarkan tahun (2023, 2024, 2025), menampilkan tren 
 transaksi, revenue per kategori, top stores, dan distribusi 
 metode pembayaran.
+
 ![Store Dashboard](Store%20Dashboard.png)
 
 ---
@@ -96,7 +97,7 @@ metode pembayaran.
 
 | Platform | Link |
 |---|---|
-| GitHub | fernandosinaga123456 |
-| Email | fernandosinaga2002@gmail.com |
-| LinkedIn | Fernando Hasiholan Sinaga |
-| Instagram | @fernandosng_ |
+| GitHub | [fernandosinaga123456](https://github.com/fernandosinaga123456) |
+| Email | [fernandosinaga2002@gmail.com](mailto:fernandosinaga2002@gmail.com) |
+| LinkedIn | [Fernando Hasiholan Sinaga](https://www.linkedin.com/in/fernandohasiholansinaga/) |
+| Instagram | [@fernandosng_](https://www.instagram.com/fernandosng_) |
