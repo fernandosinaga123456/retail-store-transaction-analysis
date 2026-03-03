@@ -1,41 +1,25 @@
 # Retail Store Transaction Analysis
-> **Tools:** Microsoft Excel | Python | Power BI
-> **Oleh:** Fernando H Sinaga |
+> **Tools:** Microsoft Excel | Python | Power BI |
+> **Oleh:** Fernando Hasiholan Sinaga 
 
 ---
 
 ## Latar Belakang
 
-Toko retail menghasilkan ratusan transaksi setiap harinya, 
-tapi seberapa banyak dari data itu yang benar-benar dimanfaatkan?
+Toko retail menghasilkan ratusan transaksi setiap harinya, namun tidak semua data tersebut dimanfaatkan secara optimal untuk pengambilan keputusan bisnis.
+Dengan 23.100 data transaksi dari 50 toko dan 1.000 produk, proyek ini berusaha menjawab pertanyaan bisnis yang sederhana namun penting: kategori mana yang paling menguntungkan, toko mana yang performanya paling tinggi, dan apakah ada tren yang perlu diwaspadai.
 
-Pertanyaan itulah yang mendorong saya untuk mengerjakan proyek ini. 
-Dengan 23.100 data transaksi dari 50 toko dan 1.000 produk, saya 
-mencoba menjawab pertanyaan-pertanyaan bisnis yang sederhana namun 
-penting: 
-Kategori mana yang paling menguntungkan? 
-Toko mana yang 
-paling perform? 
-Apakah ada tren yang perlu diwaspadai?
-
-Proyek ini adalah latihan nyata saya dalam mengolah data mentah, 
-mulai dari tahapan data cleaning di Excel, menganalisisnya dengan Python, 
-hingga menyajikannya dalam dashboard Power BI yang bisa langsung 
-digunakan untuk pengambilan keputusan.
+Proyek ini merupakan latihan nyata dalam mengolah data dari awal, mulai dari data cleaning di Excel, analisis menggunakan Python, hingga penyajian dalam dashboard Power BI yang dapat digunakan langsung sebagai dasar pengambilan keputusan bisnis.
 
 ---
 
 ## Alur Kerja
 
 ### 1. Data Cleaning - Microsoft Excel
-Perjalanan dimulai dari data yang belum sempurna. Duplikat dihapus, 
-missing values ditangani, format tanggal distandarisasi, dan kolom 
-yang tergabung dipisahkan. Setelah proses ini, data siap untuk berbicara.
+Tahapan pertama adalah membersihkan data yang belum siap dianalisis. Duplikat dihapus, missing values ditangani, format tanggal distandarisasi, dan kolom yang tergabung dipisahkan. Setelah seluruh proses ini selesai, data sudah bersih dan siap untuk dianalisis lebih lanjut.
 
 ### 2. Analisis Data - Python
-Dengan data yang bersih, saatnya menggali lebih dalam. Menggunakan 
-Pandas, setiap transaksi dianalisis untuk menemukan pola penjualan, 
-performa per kategori produk, tren bulanan, hingga store terbaik.
+Tahapan kedua adalah eksplorasi data menggunakan Python. Dengan library Pandas, setiap transaksi dianalisis untuk menemukan pola penjualan, performa per kategori produk, tren bulanan, hingga store dengan performa terbaik.
 
 **Key Metrics yang ditemukan:**
 | Metric | Value |
@@ -46,10 +30,7 @@ performa per kategori produk, tren bulanan, hingga store terbaik.
 | Total Stores | 50 |
 
 ### 3. Visualisasi Data - Power BI
-Semua temuan divisualisasikan dalam dashboard interaktif yang bisa 
-di-filter berdasarkan tahun (2023, 2024, 2025), menampilkan tren 
-transaksi, revenue per kategori, top stores, dan distribusi 
-metode pembayaran.
+Tahapan ketiga adalah menyajikan seluruh temuan dalam dashboard interaktif menggunakan Power BI. Dashboard dapat difilter berdasarkan tahun (2023, 2024, 2025) dan menampilkan tren transaksi, revenue per kategori, top stores, serta distribusi metode pembayaran.
 
 ![Store Dashboard](Store%20Dashboard.png)
 
@@ -93,6 +74,16 @@ metode pembayaran.
 
 ---
 
+## Kesimpulan
+
+Dari keseluruhan analisis terhadap 23.100 transaksi, bisnis ini menunjukkan performa yang stabil namun mulai menghadapi tantangan pertumbuhan. Volume transaksi stagnan di angka 0.1bn sejak awal 2024 dan terjadi penurunan drastis di Juli 2025 yang perlu diinvestigasi lebih lanjut, baik dari sisi sistem, kompetitor, maupun seasonal effect.
+
+Electronics tetap menjadi kategori terkuat dengan revenue sekitar 0.4bn, sementara distribusi antar kategori lainnya cukup merata di kisaran 0.3 hingga 0.35bn. Grocery menjadi kategori dengan performa terendah dan masih memiliki ruang untuk dioptimalkan melalui strategi bundling atau subscription model.
+
+Dari sisi toko, Store S3 memimpin dengan revenue sekitar 60M dan dapat dijadikan benchmark best practice bagi toko lainnya. Distribusi metode pembayaran sangat merata dengan digital payment mendominasi sekitar 80% transaksi, menunjukkan kesiapan pelanggan terhadap ekosistem pembayaran digital.
+
+Secara keseluruhan, bisnis ini membutuhkan strategi customer acquisition baru untuk keluar dari fase stagnasi, optimalisasi kategori Grocery, serta investigasi menyeluruh terhadap anomali Juli 2025 sebelum berdampak lebih jauh pada performa bisnis.
+
 ## Contact
 
 | Platform | Link |
@@ -100,4 +91,5 @@ metode pembayaran.
 | GitHub | [fernandosinaga123456](https://github.com/fernandosinaga123456) |
 | Email | [fernandosinaga2002@gmail.com](mailto:fernandosinaga2002@gmail.com) |
 | LinkedIn | [Fernando Hasiholan Sinaga](https://www.linkedin.com/in/fernandohasiholansinaga/) |
+| Portfolio | [datascienceportfol.io/fernandosinaga_h](https://www.datascienceportfol.io/fernandosinaga_h) |
 | Instagram | [@fernandosng_](https://www.instagram.com/fernandosng_) |
